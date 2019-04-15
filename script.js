@@ -13,8 +13,7 @@ console.log('*Завдання 1*');
 
 //цикл
 function fib(n){
-    var a = 1;
-    var b = 1;
+    var a = 1, b = 1;
     for (var i = 3; i <= n; i++){
         var c = a + b;
         a = b;
